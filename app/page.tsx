@@ -100,16 +100,16 @@ export default function Home() {
               <span>0</span>
             </div>
             <div className="flex-between text-secondary text-[12px] font-normal">
-              <h1 className="flex gap-1">
+              <h1 className="flex items-center gap-1">
                 Discount
-                <p className="flex bg-primary pl-[8px] rounded">
+                <p className="flex bg-primary pl-[8px] rounded py-1">
                   Amount
                   <Image
                     src="/hug.svg"
                     alt="hug"
                     width={10}
                     height={10}
-                    className="h-[16px] w-[16px] object-contain"
+                    className="h-[20px] w-[20px] object-contain"
                   />
                 </p>
               </h1>
